@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='/styleSheets/style.css'>
+    <title>edit chats</title>
+</head>
+<body>
+    <h1 id="headding" >whatsApp 📱</h1>
+        <h1>your meaasage</h1>
+        <form method="post" action="/chats/<%=foundChat._id  %>?_method=put" >
+            <textarea name="updatedChat" id="updated"><%= foundChat.message %></textarea>
+            <button>save</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body
+{
+    background-color: #25D366;
+    color: white;
+    font-family: Helvetica;
+    padding: 0;
+    margin-left: 20px;
+}
+#headding
+{
+    font-size: 100px;
+    font-weight: 1300;
+}
+
+.chats
+{
+    
+background-color: rgb(255, 255, 255);
+font-weight: 800;
+padding: 20px;
+border: 2px black solid;
+border-radius: 16px;
+display: inline-block;
+margin: 15px;
+color:black
+
+
+}
+.message
+{
+    /* padding-left: 200px; */
+   
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    
+   
+}
+.reciver
+{
+   padding-left: 200px;
+}
+.sendButton
+{
+    background-color: rgb(58, 125, 250);
+font-weight: 800;
+
+color: white;
+}
+
+#deleteButton
+{
+    background-color: rgb(255, 120, 120);
+    /* display: inline-block;*/
+} 
+
+#editButton
+{
+    background-color: #95ffbc;
+    margin: 3px;
+}
+
+.buttonContainer
+{
+    display: flex;
+}
+h5{
+
+    text-align: center;
+    opacity: 0.5;
+    position: relative;
+    margin-top: 0px;
+}
